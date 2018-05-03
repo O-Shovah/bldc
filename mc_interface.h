@@ -88,7 +88,7 @@ extern volatile int ADC_curr_norm_value[];
 
 // Common fixed parameters
 #ifndef HW_DEAD_TIME_VALUE
-#define HW_DEAD_TIME_VALUE				60 // Dead time
+#define HW_DEAD_TIME_VALUE				20 // Dead time
 #endif
 
 #endif /* MC_INTERFACE_H_ */
